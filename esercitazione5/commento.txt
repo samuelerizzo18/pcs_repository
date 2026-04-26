@@ -1,0 +1,2 @@
+Dai risultati sembra che quicksort sia sempre più veloce di std::sort. Probabilmente, essendo i dati casuali, le partizioni risultano abbastanza bilanciate, quindi il quick lavora in condizioni favorevoli, dove la complessità è logaritmica. Va comunque tenuto presente che questo comportamento non è garantito in generale, poiché nel caso peggiore la complessità è quadratica.
+In generale, per dimensioni molto piccole gli algoritmi quadratici possono risultare efficienti, mentre all’aumentare della dimensione del vettore conviene utilizzare algoritmi con complessità O(nlogn).

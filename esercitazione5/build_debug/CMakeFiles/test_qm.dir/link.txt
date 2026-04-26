@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -g -Wl,--dependency-file=CMakeFiles/test_qm.dir/link.d CMakeFiles/test_qm.dir/test_qm.cpp.o CMakeFiles/test_qm.dir/timecounter.cpp.o -o test_qm
