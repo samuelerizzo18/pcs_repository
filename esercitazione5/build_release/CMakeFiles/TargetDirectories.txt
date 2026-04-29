@@ -1,6 +1,6 @@
 /home/pcsdocker/Data/pcs_repository/esercitazione5/build_release/CMakeFiles/test_merge_sort.dir
-/home/pcsdocker/Data/pcs_repository/esercitazione5/build_release/CMakeFiles/test_quick_sort.dir
-/home/pcsdocker/Data/pcs_repository/esercitazione5/build_release/CMakeFiles/test_qm.dir
+/home/pcsdocker/Data/pcs_repository/esercitazione5/build_release/CMakeFiles/test_quicksort.dir
+/home/pcsdocker/Data/pcs_repository/esercitazione5/build_release/CMakeFiles/test_quick_sort_m.dir
 /home/pcsdocker/Data/pcs_repository/esercitazione5/build_release/CMakeFiles/confronto.dir
 /home/pcsdocker/Data/pcs_repository/esercitazione5/build_release/CMakeFiles/test.dir
 /home/pcsdocker/Data/pcs_repository/esercitazione5/build_release/CMakeFiles/edit_cache.dir

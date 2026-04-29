@@ -140,30 +140,30 @@ test_merge_sort/fast:
 .PHONY : test_merge_sort/fast
 
 #=============================================================================
-# Target rules for targets named test_quick_sort
+# Target rules for targets named test_quicksort
 
 # Build rule for target.
-test_quick_sort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_quick_sort
-.PHONY : test_quick_sort
+test_quicksort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_quicksort
+.PHONY : test_quicksort
 
 # fast build rule for target.
-test_quick_sort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort.dir/build.make CMakeFiles/test_quick_sort.dir/build
-.PHONY : test_quick_sort/fast
+test_quicksort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quicksort.dir/build.make CMakeFiles/test_quicksort.dir/build
+.PHONY : test_quicksort/fast
 
 #=============================================================================
-# Target rules for targets named test_qm
+# Target rules for targets named test_quick_sort_m
 
 # Build rule for target.
-test_qm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_qm
-.PHONY : test_qm
+test_quick_sort_m: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_quick_sort_m
+.PHONY : test_quick_sort_m
 
 # fast build rule for target.
-test_qm/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_qm.dir/build.make CMakeFiles/test_qm.dir/build
-.PHONY : test_qm/fast
+test_quick_sort_m/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort_m.dir/build.make CMakeFiles/test_quick_sort_m.dir/build
+.PHONY : test_quick_sort_m/fast
 
 #=============================================================================
 # Target rules for targets named confronto
@@ -226,60 +226,60 @@ test_merge_sort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_merge_sort.dir/build.make CMakeFiles/test_merge_sort.dir/test_merge_sort.cpp.s
 .PHONY : test_merge_sort.cpp.s
 
-test_qm.o: test_qm.cpp.o
-.PHONY : test_qm.o
+test_quick_sort_m.o: test_quick_sort_m.cpp.o
+.PHONY : test_quick_sort_m.o
 
 # target to build an object file
-test_qm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_qm.dir/build.make CMakeFiles/test_qm.dir/test_qm.cpp.o
-.PHONY : test_qm.cpp.o
+test_quick_sort_m.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort_m.dir/build.make CMakeFiles/test_quick_sort_m.dir/test_quick_sort_m.cpp.o
+.PHONY : test_quick_sort_m.cpp.o
 
-test_qm.i: test_qm.cpp.i
-.PHONY : test_qm.i
+test_quick_sort_m.i: test_quick_sort_m.cpp.i
+.PHONY : test_quick_sort_m.i
 
 # target to preprocess a source file
-test_qm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_qm.dir/build.make CMakeFiles/test_qm.dir/test_qm.cpp.i
-.PHONY : test_qm.cpp.i
+test_quick_sort_m.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort_m.dir/build.make CMakeFiles/test_quick_sort_m.dir/test_quick_sort_m.cpp.i
+.PHONY : test_quick_sort_m.cpp.i
 
-test_qm.s: test_qm.cpp.s
-.PHONY : test_qm.s
+test_quick_sort_m.s: test_quick_sort_m.cpp.s
+.PHONY : test_quick_sort_m.s
 
 # target to generate assembly for a file
-test_qm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_qm.dir/build.make CMakeFiles/test_qm.dir/test_qm.cpp.s
-.PHONY : test_qm.cpp.s
+test_quick_sort_m.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort_m.dir/build.make CMakeFiles/test_quick_sort_m.dir/test_quick_sort_m.cpp.s
+.PHONY : test_quick_sort_m.cpp.s
 
-test_quick_sort.o: test_quick_sort.cpp.o
-.PHONY : test_quick_sort.o
+test_quicksort.o: test_quicksort.cpp.o
+.PHONY : test_quicksort.o
 
 # target to build an object file
-test_quick_sort.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort.dir/build.make CMakeFiles/test_quick_sort.dir/test_quick_sort.cpp.o
-.PHONY : test_quick_sort.cpp.o
+test_quicksort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quicksort.dir/build.make CMakeFiles/test_quicksort.dir/test_quicksort.cpp.o
+.PHONY : test_quicksort.cpp.o
 
-test_quick_sort.i: test_quick_sort.cpp.i
-.PHONY : test_quick_sort.i
+test_quicksort.i: test_quicksort.cpp.i
+.PHONY : test_quicksort.i
 
 # target to preprocess a source file
-test_quick_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort.dir/build.make CMakeFiles/test_quick_sort.dir/test_quick_sort.cpp.i
-.PHONY : test_quick_sort.cpp.i
+test_quicksort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quicksort.dir/build.make CMakeFiles/test_quicksort.dir/test_quicksort.cpp.i
+.PHONY : test_quicksort.cpp.i
 
-test_quick_sort.s: test_quick_sort.cpp.s
-.PHONY : test_quick_sort.s
+test_quicksort.s: test_quicksort.cpp.s
+.PHONY : test_quicksort.s
 
 # target to generate assembly for a file
-test_quick_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort.dir/build.make CMakeFiles/test_quick_sort.dir/test_quick_sort.cpp.s
-.PHONY : test_quick_sort.cpp.s
+test_quicksort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quicksort.dir/build.make CMakeFiles/test_quicksort.dir/test_quicksort.cpp.s
+.PHONY : test_quicksort.cpp.s
 
 timecounter.o: timecounter.cpp.o
 .PHONY : timecounter.o
 
 # target to build an object file
 timecounter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_qm.dir/build.make CMakeFiles/test_qm.dir/timecounter.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort_m.dir/build.make CMakeFiles/test_quick_sort_m.dir/timecounter.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/confronto.dir/build.make CMakeFiles/confronto.dir/timecounter.cpp.o
 .PHONY : timecounter.cpp.o
 
@@ -288,7 +288,7 @@ timecounter.i: timecounter.cpp.i
 
 # target to preprocess a source file
 timecounter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_qm.dir/build.make CMakeFiles/test_qm.dir/timecounter.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort_m.dir/build.make CMakeFiles/test_quick_sort_m.dir/timecounter.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/confronto.dir/build.make CMakeFiles/confronto.dir/timecounter.cpp.i
 .PHONY : timecounter.cpp.i
 
@@ -297,7 +297,7 @@ timecounter.s: timecounter.cpp.s
 
 # target to generate assembly for a file
 timecounter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_qm.dir/build.make CMakeFiles/test_qm.dir/timecounter.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_quick_sort_m.dir/build.make CMakeFiles/test_quick_sort_m.dir/timecounter.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/confronto.dir/build.make CMakeFiles/confronto.dir/timecounter.cpp.s
 .PHONY : timecounter.cpp.s
 
@@ -312,20 +312,20 @@ help:
 	@echo "... test"
 	@echo "... confronto"
 	@echo "... test_merge_sort"
-	@echo "... test_qm"
-	@echo "... test_quick_sort"
+	@echo "... test_quick_sort_m"
+	@echo "... test_quicksort"
 	@echo "... confronto.o"
 	@echo "... confronto.i"
 	@echo "... confronto.s"
 	@echo "... test_merge_sort.o"
 	@echo "... test_merge_sort.i"
 	@echo "... test_merge_sort.s"
-	@echo "... test_qm.o"
-	@echo "... test_qm.i"
-	@echo "... test_qm.s"
-	@echo "... test_quick_sort.o"
-	@echo "... test_quick_sort.i"
-	@echo "... test_quick_sort.s"
+	@echo "... test_quick_sort_m.o"
+	@echo "... test_quick_sort_m.i"
+	@echo "... test_quick_sort_m.s"
+	@echo "... test_quicksort.o"
+	@echo "... test_quicksort.i"
+	@echo "... test_quicksort.s"
 	@echo "... timecounter.o"
 	@echo "... timecounter.i"
 	@echo "... timecounter.s"
