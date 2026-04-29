@@ -138,7 +138,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_merge_sort.dir/DependInfo.cmake"
-  "CMakeFiles/test_quick_sort.dir/DependInfo.cmake"
-  "CMakeFiles/test_qm.dir/DependInfo.cmake"
+  "CMakeFiles/test_quicksort.dir/DependInfo.cmake"
+  "CMakeFiles/test_quick_sort_m.dir/DependInfo.cmake"
   "CMakeFiles/confronto.dir/DependInfo.cmake"
   )

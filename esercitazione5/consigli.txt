@@ -1,2 +1,0 @@
-per compilare in debug e release  basta aggiungere quelle righe di codice dopo il make
-due cartelle in cui in una buildo in release e nell'altra in debug

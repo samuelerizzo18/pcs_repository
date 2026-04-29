@@ -28,11 +28,11 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wshadow")
 add_executable(test_merge_sort test_merge_sort.cpp)
 add_test(NAME mergesort COMMAND test_merge_sort)
 
-add_executable(test_quick_sort test_quick_sort.cpp)
+add_executable(test_quicksort test_quicksort.cpp)
 add_test(NAME quicksort COMMAND test_quicksort)
 
-add_executable(test_qm test_qm.cpp timecounter.cpp)
-add_test(NAME quick_modificato COMMAND test_qm)
+add_executable(test_quick_sort_m test_quick_sort_m.cpp timecounter.cpp)
+add_test(NAME quick_modificato COMMAND test_quick_sort_m)
 
 add_executable(confronto confronto.cpp timecounter.cpp)
 add_test(NAME confronto COMMAND confronto)

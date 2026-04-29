@@ -1,0 +1,8 @@
+build_debug
+build_release
+*.o
+*.out
+*.exe
+testM
+testQ
+modified
